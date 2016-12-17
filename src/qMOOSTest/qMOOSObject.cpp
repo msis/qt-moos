@@ -91,6 +91,8 @@ bool qMOOSObject::OnNewMail(MOOSMSG_LIST &NewMail)
       handled = true;
     }
 
+    emitMOOSMsgAsSignal(msg);
+
     if (!handled) {
       reportRunWarning("Unhandled Mail: " + key);
     }

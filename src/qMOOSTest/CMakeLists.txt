@@ -6,6 +6,7 @@ set(CMAKE_CXX_FLAGS
 
 SET(SRC_FILES
   qMOOSObject.cpp
+  window.cpp
   main.cpp
   )
 
